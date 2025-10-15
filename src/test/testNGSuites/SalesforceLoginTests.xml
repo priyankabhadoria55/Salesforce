@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SalesforceLoginTestSuite" verbose="1" parallel="false" thread-count="1">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="QA"/>
+    <parameter name="headless" value="false"/>
+    
+    <!-- Listeners for reporting -->
+    <listeners>
+        <listener class-name="utils.ExtentReportListener"/>
+    </listeners>
+    
+    <!-- Test configuration -->
+    <test name="SalesforceLoginTests" preserve-order="true">
+        <parameter name="testType" value="BDD"/>
+        <parameter name="application" value="Salesforce"/>
+        
+        <!-- Test classes -->
+        <classes>
+            <class name="bddRunner.SalesforceLoginTestRunner">
+                <methods>
+                    <include name="scenarios"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Smoke Test Suite -->
+    <test name="SalesforceLoginSmokeTests" preserve-order="true" enabled="false">
+        <parameter name="tags" value="@Smoke"/>
+        <classes>
+            <class name="bddRunner.SalesforceLoginTestRunner"/>
+        </classes>
+    </test>
+    
+    <!-- Negative Test Suite -->
+    <test name="SalesforceLoginNegativeTests" preserve-order="true" enabled="false">
+        <parameter name="tags" value="@Negative"/>
+        <classes>
+            <class name="bddRunner.SalesforceLoginTestRunner"/>
+        </classes>
+    </test>
+</suite>
