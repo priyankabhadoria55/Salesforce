@@ -12,6 +12,8 @@
                <!--  <class name="bddRunner.UploadTestRunner">-->
             <class name="bddRunner.ObjectSetupTestRunner">
 
+            <class name="bddRunner.SalesforceLoginRunner"/>
+
             <!--<class name="bddRunner.DeleteModuleTestRunner">-->
 
 
