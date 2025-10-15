@@ -18,4 +18,4 @@ XfilePro_password=XfilesPro@123
 XfilePro_user=priyanka.bhadoria@xfp.com
 browser=chrome
 reportConfigPath=Extent-config.xml
-xFilesPro_application_url=https\://qautomation.my.salesforce.com
+xFilesPro_application_url=https\://login.salesforce.com
