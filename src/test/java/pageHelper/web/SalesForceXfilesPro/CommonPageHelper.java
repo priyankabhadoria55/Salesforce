@@ -82,6 +82,30 @@ public class CommonPageHelper {
     }
 
     /**
+     * Verify successful login to Salesforce
+     * Checks if the App Launcher is visible after login
+     *
+     * @throws Exception if verification fails
+     */
+    @io.cucumber.java.en.Then("Verify successful login to Salesforce")
+    public void verifySuccessfulLogin() throws Exception {
+        // Wait for App Launcher to be visible (indicates successful login)
+        webDriver.verifyElementToBePresent(xml.getlocator("AppLauncher"));
+        System.out.println("✅ Successfully logged into Salesforce - App Launcher is visible");
+    }
+
+    /**
+     * Verify App Launcher is visible
+     *
+     * @throws Exception if App Launcher is not visible
+     */
+    @io.cucumber.java.en.Then("Verify App Launcher is visible")
+    public void verifyAppLauncherIsVisible() throws Exception {
+        webDriver.verifyElementToBePresent(xml.getlocator("AppLauncher"));
+        System.out.println("✅ App Launcher is visible");
+    }
+
+    /**
      * Navigate to a specific Nav item in Salesforce
      *
      * @param navItemName Name of the navigation item to click
