@@ -1,0 +1,469 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1596991863351,8297,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,199913,358,1,1,null,0,132,2574
+1596991863472,8297,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,199913,358,1,1,https://www.saksoft.com/,4588,0,2574
+1596991871782,18027,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,498307,1300,1,1,null,0,74796,1903
+1596991878919,5806,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,172349,431,1,1,https://www.saksoft.com/application-services/,3418,0,703
+1596991928445,6324,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,152758,442,1,1,https://www.saksoft.com/information-management-services/,2773,0,584
+1596991958706,5897,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,173200,427,1,1,https://www.saksoft.com/testing-services/,2820,0,616
+1596994793333,7370,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,199928,358,1,1,null,0,445,3468
+1596994793763,7370,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,199928,358,1,1,https://www.saksoft.com/,5439,0,3468
+1596994801229,13997,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,498277,1300,1,1,null,0,86948,1772
+1596994832087,4708,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,172329,431,1,1,https://www.saksoft.com/application-services/,2474,0,608
+1596994878667,4363,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,152753,442,1,1,https://www.saksoft.com/information-management-services/,2415,0,584
+1596994897246,4926,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,173195,427,1,1,https://www.saksoft.com/testing-services/,3006,0,580
+1597039451612,5906,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,196303,358,1,1,null,0,231,2652
+1597039451837,5906,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,196303,358,1,1,https://www.saksoft.com/,3988,0,2652
+1597039457758,14707,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,481221,1300,1,1,null,0,72411,1644
+1597039474901,5034,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,166133,431,1,1,https://www.saksoft.com/application-services/,3129,0,558
+1597039524688,5215,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,147287,442,1,1,https://www.saksoft.com/information-management-services/,3285,0,549
+1597039540417,4458,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,167801,427,1,1,https://www.saksoft.com/testing-services/,2859,0,537
+1597050068779,9018,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,196460,358,1,1,null,0,245,3635
+1597050069014,9018,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,196460,358,1,1,https://www.saksoft.com/,6839,0,3635
+1597050078099,20561,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,479601,1300,1,1,null,0,77652,1701
+1597050107533,4582,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,166123,431,1,1,https://www.saksoft.com/application-services/,2615,0,588
+1597050148219,11879,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,146482,442,1,1,https://www.saksoft.com/information-management-services/,9965,0,554
+1597050172210,4100,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,166996,427,1,1,https://www.saksoft.com/testing-services/,2164,0,559
+1604277871290,9694,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233152,358,1,1,null,0,291,5734
+1604277871578,9694,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233152,358,1,1,https://www.saksoft.com/,8741,0,5734
+1604277881301,11252,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450087,1144,1,1,null,0,63202,335
+1604277892642,3784,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174202,379,1,1,https://www.saksoft.com/application-services/,2526,0,0
+1604277934009,4266,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137341,390,1,1,https://www.saksoft.com/information-management-services/,3458,0,335
+1604277952553,3202,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138544,375,1,1,https://www.saksoft.com/testing-services/,2468,0,0
+1604278357437,8155,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233178,358,1,1,null,0,147,4327
+1604278357579,8155,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233178,358,1,1,https://www.saksoft.com/,7136,0,4327
+1604278365749,10944,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450067,1144,1,1,null,0,91156,339
+1604278402828,3750,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174242,379,1,1,https://www.saksoft.com/application-services/,2575,0,0
+1604278444376,3921,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137320,390,1,1,https://www.saksoft.com/information-management-services/,2884,0,339
+1604278464576,3273,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138505,375,1,1,https://www.saksoft.com/testing-services/,2516,0,0
+1604278453590,8234,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233164,358,1,1,null,0,166,3996
+1604278453752,8234,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233164,358,1,1,https://www.saksoft.com/,6724,0,3996
+1604278461999,11006,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450131,1144,1,1,null,0,77157,327
+1604278498059,3708,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174197,379,1,1,https://www.saksoft.com/application-services/,2709,0,0
+1604278533632,3830,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137362,390,1,1,https://www.saksoft.com/information-management-services/,3020,0,327
+1604278546695,3468,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138572,375,1,1,https://www.saksoft.com/testing-services/,2519,0,0
+1604278586992,8116,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233170,358,1,1,null,0,274,4147
+1604278587263,8116,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233170,358,1,1,https://www.saksoft.com/,7130,0,4147
+1604278595392,11741,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450118,1144,1,1,null,0,61080,313
+1604278606049,4157,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174225,379,1,1,https://www.saksoft.com/application-services/,2916,0,0
+1604278640491,3259,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137342,390,1,1,https://www.saksoft.com/information-management-services/,2289,0,0
+1604278663888,4325,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138551,375,1,1,https://www.saksoft.com/testing-services/,3524,0,313
+1604278876748,7815,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233140,358,1,1,null,0,140,3795
+1604278876885,7815,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233140,358,1,1,https://www.saksoft.com/,6841,0,3795
+1604278884713,11637,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450100,1144,1,1,null,0,83821,337
+1604278918107,3869,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174213,379,1,1,https://www.saksoft.com/application-services/,2893,0,0
+1604278950013,4259,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137324,390,1,1,https://www.saksoft.com/information-management-services/,3202,0,337
+1604278976662,3509,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138563,375,1,1,https://www.saksoft.com/testing-services/,2583,0,0
+1604279154321,7823,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233190,358,1,1,null,0,148,4000
+1604279154466,7823,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233190,358,1,1,https://www.saksoft.com/,6775,0,4000
+1604279162301,12596,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450165,1144,1,1,null,0,66410,314
+1604279177144,3858,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174214,379,1,1,https://www.saksoft.com/application-services/,2853,0,0
+1604279210521,4693,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137367,390,1,1,https://www.saksoft.com/information-management-services/,3952,0,0
+1604279237263,4045,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138584,375,1,1,https://www.saksoft.com/testing-services/,3232,0,314
+1604279242719,7942,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233160,358,1,1,null,0,167,4024
+1604279242879,7942,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233160,358,1,1,https://www.saksoft.com/,6833,0,4024
+1604279250839,11692,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450118,1144,1,1,null,0,75762,321
+1604279261056,4441,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174198,379,1,1,https://www.saksoft.com/application-services/,3453,0,0
+1604279316525,3808,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137318,390,1,1,https://www.saksoft.com/information-management-services/,2880,0,321
+1604279334849,3443,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138602,375,1,1,https://www.saksoft.com/testing-services/,2701,0,0
+1604279769444,10877,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233152,358,1,1,null,0,151,3943
+1604279769591,10877,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233152,358,1,1,https://www.saksoft.com/,9922,0,3943
+1604279780482,15887,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450130,1144,1,1,null,0,85408,307
+1604279800221,7347,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174209,379,1,1,https://www.saksoft.com/application-services/,6604,0,0
+1604279863803,4453,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137354,390,1,1,https://www.saksoft.com/information-management-services/,3661,0,307
+1604279877690,4087,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138567,375,1,1,https://www.saksoft.com/testing-services/,3315,0,0
+1604372939483,9711,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233178,358,1,1,null,0,149,5746
+1604372939630,9711,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233178,358,1,1,https://www.saksoft.com/,8380,0,5746
+1604372949367,22277,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450132,1144,1,1,null,0,54905,335
+1604372975389,4115,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174235,379,1,1,https://www.saksoft.com/application-services/,3095,0,0
+1604372999222,6096,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137325,390,1,1,https://www.saksoft.com/information-management-services/,5351,0,0
+1604373014483,12066,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138572,375,1,1,https://www.saksoft.com/testing-services/,11269,0,335
+1604373470792,9023,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233167,358,1,1,null,0,373,5225
+1604373471174,9023,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233167,358,1,1,https://www.saksoft.com/,7976,0,5225
+1604373480226,10976,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450173,1144,1,1,null,0,85780,311
+1604373510947,4148,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174233,379,1,1,https://www.saksoft.com/application-services/,3168,0,0
+1604373559189,3711,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137341,390,1,1,https://www.saksoft.com/information-management-services/,2922,0,311
+1604373573867,3117,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138599,375,1,1,https://www.saksoft.com/testing-services/,2407,0,0
+1604375943290,23786,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233152,358,1,1,null,0,556,12193
+1604375943840,23786,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233152,358,1,1,https://www.saksoft.com/,15067,0,12193
+1604375967894,16535,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450055,1144,1,1,null,0,72497,324
+1604375996630,9267,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174183,379,1,1,https://www.saksoft.com/application-services/,3604,0,0
+1604376038238,3909,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137322,390,1,1,https://www.saksoft.com/information-management-services/,3104,0,324
+1604376053567,3359,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138550,375,1,1,https://www.saksoft.com/testing-services/,2623,0,0
+1604392155537,10807,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233213,358,1,1,null,0,387,6734
+1604392155921,10807,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233213,358,1,1,https://www.saksoft.com/,9675,0,6734
+1604392166747,15739,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450180,1144,1,1,null,0,53583,331
+1604392167510,3807,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174250,379,1,1,https://www.saksoft.com/application-services/,2884,0,0
+1604392213588,7029,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137354,390,1,1,https://www.saksoft.com/information-management-services/,6227,0,0
+1604392231165,4903,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138576,375,1,1,https://www.saksoft.com/testing-services/,4091,0,331
+1604414155469,8709,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233187,358,1,1,null,0,147,4190
+1604414155612,8709,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233187,358,1,1,https://www.saksoft.com/,7380,0,4190
+1604414164334,13235,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450127,1144,1,1,null,0,85687,361
+1604414192390,3825,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174195,379,1,1,https://www.saksoft.com/application-services/,2709,0,0
+1604414231385,4131,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137367,390,1,1,https://www.saksoft.com/information-management-services/,3134,0,361
+1604414257977,5279,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138565,375,1,1,https://www.saksoft.com/testing-services/,4402,0,0
+1604414651350,8052,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233188,358,1,1,null,0,181,3672
+1604414651529,8052,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233188,358,1,1,https://www.saksoft.com/,7029,0,3672
+1604414659592,12354,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450180,1144,1,1,null,0,64525,343
+1604414669028,3693,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174233,379,1,1,https://www.saksoft.com/application-services/,2769,0,0
+1604414711910,5455,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137343,390,1,1,https://www.saksoft.com/information-management-services/,4485,0,343
+1604414733265,3206,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138604,375,1,1,https://www.saksoft.com/testing-services/,2500,0,0
+1604420817503,8316,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233191,358,1,1,null,0,200,4104
+1604420817700,8316,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233191,358,1,1,https://www.saksoft.com/,6905,0,4104
+1604420826036,11608,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450183,1144,1,1,null,0,94555,354
+1604420857574,3579,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174241,379,1,1,https://www.saksoft.com/application-services/,2672,0,0
+1604420901625,4515,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137372,390,1,1,https://www.saksoft.com/information-management-services/,3612,0,354
+1604420928687,3514,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138570,375,1,1,https://www.saksoft.com/testing-services/,2785,0,0
+1604421113010,7527,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233180,358,1,1,null,0,144,3455
+1604421113153,7527,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233180,358,1,1,https://www.saksoft.com/,6318,0,3455
+1604421120690,11349,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450159,1144,1,1,null,0,55853,309
+1604421135433,3790,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174196,379,1,1,https://www.saksoft.com/application-services/,2802,0,0
+1604421169235,3622,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137379,390,1,1,https://www.saksoft.com/information-management-services/,2869,0,0
+1604421183955,3937,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138584,375,1,1,https://www.saksoft.com/testing-services/,2984,0,309
+1604478235254,10226,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233175,358,1,1,null,0,184,4761
+1604478235434,10226,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233175,358,1,1,https://www.saksoft.com/,9216,0,4761
+1604478245703,15776,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450140,1144,1,1,null,0,70089,324
+1604478263142,3485,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174236,379,1,1,https://www.saksoft.com/application-services/,2537,0,0
+1604478306854,7887,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137313,390,1,1,https://www.saksoft.com/information-management-services/,7120,0,324
+1604478327165,4404,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138591,375,1,1,https://www.saksoft.com/testing-services/,3684,0,0
+1604491122001,10619,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233198,358,1,1,null,0,523,6071
+1604491122523,10619,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233198,358,1,1,https://www.saksoft.com/,9478,0,6071
+1604491133218,25249,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450127,1144,1,1,null,0,65465,306
+1604491150839,3827,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174206,379,1,1,https://www.saksoft.com/application-services/,2687,0,0
+1604491187290,4911,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137357,390,1,1,https://www.saksoft.com/information-management-services/,4136,0,306
+1604491207421,16511,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138564,375,1,1,https://www.saksoft.com/testing-services/,15596,0,0
+1604492031379,7291,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233179,358,1,1,null,0,114,3269
+1604492031489,7291,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233179,358,1,1,https://www.saksoft.com/,6365,0,3269
+1604492038798,12661,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450163,1144,1,1,null,0,92656,322
+1604492071396,4814,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174237,379,1,1,https://www.saksoft.com/application-services/,4076,0,0
+1604492116641,4044,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137346,390,1,1,https://www.saksoft.com/information-management-services/,3244,0,322
+1604492140313,3803,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138580,375,1,1,https://www.saksoft.com/testing-services/,3087,0,0
+1604492613673,7491,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233162,358,1,1,null,0,114,3463
+1604492613788,7491,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233162,358,1,1,https://www.saksoft.com/,6574,0,3463
+1604492621291,14323,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450152,1144,1,1,null,0,81623,311
+1604492641816,4232,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174224,379,1,1,https://www.saksoft.com/application-services/,3199,0,0
+1604492691385,4000,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137355,390,1,1,https://www.saksoft.com/information-management-services/,3092,0,311
+1604492711146,6091,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138573,375,1,1,https://www.saksoft.com/testing-services/,5374,0,0
+1604493398854,9132,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233226,358,1,1,null,0,359,5087
+1604493399219,9132,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233226,358,1,1,https://www.saksoft.com/,7985,0,5087
+1604493408383,13256,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450177,1144,1,1,null,0,67663,351
+1604493424476,5029,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174231,379,1,1,https://www.saksoft.com/application-services/,4025,0,0
+1604493465724,4168,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137363,390,1,1,https://www.saksoft.com/information-management-services/,3333,0,351
+1604493485243,4059,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138583,375,1,1,https://www.saksoft.com/testing-services/,3143,0,0
+1604493814953,12055,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233180,358,1,1,null,0,379,6072
+1604493815333,12055,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233180,358,1,1,https://www.saksoft.com/,10919,0,6072
+1604493827413,17699,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450147,1144,1,1,null,0,70664,329
+1604493845315,4196,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174211,379,1,1,https://www.saksoft.com/application-services/,2967,0,0
+1604493882779,4070,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137347,390,1,1,https://www.saksoft.com/information-management-services/,3118,0,329
+1604493906342,9433,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138589,375,1,1,https://www.saksoft.com/testing-services/,8701,0,0
+1604494550296,8301,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233190,358,1,1,null,0,104,4547
+1604494550400,8301,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233190,358,1,1,https://www.saksoft.com/,7388,0,4547
+1604494558708,11064,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450131,1144,1,1,null,0,76880,337
+1604494570588,3429,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174227,379,1,1,https://www.saksoft.com/application-services/,2692,0,0
+1604494627337,3914,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137319,390,1,1,https://www.saksoft.com/information-management-services/,3097,0,337
+1604494642933,3721,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138585,375,1,1,https://www.saksoft.com/testing-services/,2760,0,0
+1604496981370,9541,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233193,358,1,1,null,0,247,4027
+1604496981615,9541,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233193,358,1,1,https://www.saksoft.com/,8540,0,4027
+1604496991316,16199,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450178,1144,1,1,null,0,71554,609
+1604497027572,7818,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174220,379,1,1,https://www.saksoft.com/application-services/,6858,0,0
+1604497057087,4293,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137377,390,1,1,https://www.saksoft.com/information-management-services/,3488,0,609
+1604497074981,4088,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138581,375,1,1,https://www.saksoft.com/testing-services/,3128,0,0
+1604497451294,8028,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233178,358,1,1,null,0,134,4226
+1604497451424,8028,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233178,358,1,1,https://www.saksoft.com/,6966,0,4226
+1604497459464,12323,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450186,1144,1,1,null,0,79098,342
+1604497479221,4571,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174265,379,1,1,https://www.saksoft.com/application-services/,3610,0,0
+1604497531590,3949,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137342,390,1,1,https://www.saksoft.com/information-management-services/,3167,0,342
+1604497547082,3803,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138579,375,1,1,https://www.saksoft.com/testing-services/,2889,0,0
+1604499183085,12143,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,233200,358,1,1,null,0,216,4646
+1604499183297,12143,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,233200,358,1,1,https://www.saksoft.com/,11244,0,4646
+1604499195483,11391,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,450155,1144,1,1,null,0,74935,351
+1604499195605,4002,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,174234,379,1,1,https://www.saksoft.com/application-services/,3075,0,0
+1604499250330,4091,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,137334,390,1,1,https://www.saksoft.com/information-management-services/,3253,0,351
+1604499278511,3298,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,138587,375,1,1,https://www.saksoft.com/testing-services/,2573,0,0
+1610603323682,6629,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227955,358,1,1,null,0,291,4019
+1610603323977,6629,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227955,358,1,1,https://www.saksoft.com/,5927,0,4019
+1610603330867,16463,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424567,1144,1,1,null,0,92864,155
+1610603355296,1773,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165851,379,1,1,https://www.saksoft.com/application-services/,1436,0,0
+1610603402780,12469,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128758,390,1,1,https://www.saksoft.com/information-management-services/,11795,0,155
+1610603437973,2221,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129958,375,1,1,https://www.saksoft.com/testing-services/,1646,0,0
+1610603998862,19153,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227968,358,1,1,null,0,313,3233
+1610603999171,19153,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227968,358,1,1,https://www.saksoft.com/,18051,0,3233
+1610604018359,7945,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424584,1144,1,1,null,0,85695,181
+1610604049594,2307,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165851,379,1,1,https://www.saksoft.com/application-services/,1616,0,0
+1610604082602,2895,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128780,390,1,1,https://www.saksoft.com/information-management-services/,2028,0,181
+1610604109255,2743,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129953,375,1,1,https://www.saksoft.com/testing-services/,2090,0,0
+1610604790394,6569,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227925,358,1,1,null,0,392,4029
+1610604790783,6569,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227925,358,1,1,https://www.saksoft.com/,5544,0,4029
+1610604797388,7952,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424540,1144,1,1,null,0,90234,160
+1610604825091,3977,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165841,379,1,1,https://www.saksoft.com/application-services/,1488,0,0
+1610604869871,2104,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128748,390,1,1,https://www.saksoft.com/information-management-services/,1479,0,160
+1610604893703,1871,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129951,375,1,1,https://www.saksoft.com/testing-services/,1406,0,0
+1610613440908,9403,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227945,358,1,1,null,0,1055,5660
+1610613441950,9403,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227945,358,1,1,https://www.saksoft.com/,8547,0,5660
+1610613451469,8688,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424552,1144,1,1,null,0,72106,185
+1610613482242,3237,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165854,379,1,1,https://www.saksoft.com/application-services/,2646,0,0
+1610613513947,2732,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128752,390,1,1,https://www.saksoft.com/information-management-services/,2239,0,185
+1610613529543,2719,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129946,375,1,1,https://www.saksoft.com/testing-services/,2122,0,0
+1610614140852,8902,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227968,358,1,1,null,0,570,5158
+1610614141420,8902,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227968,358,1,1,https://www.saksoft.com/,7265,0,5158
+1610614150367,15091,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424558,1144,1,1,null,0,52787,296
+1610614157647,2333,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165852,379,1,1,https://www.saksoft.com/application-services/,1428,0,0
+1610614184073,2785,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128767,390,1,1,https://www.saksoft.com/information-management-services/,1899,0,0
+1610614208273,9973,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129939,375,1,1,https://www.saksoft.com/testing-services/,9243,0,296
+1610614974395,10324,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227959,358,1,1,null,0,156,7332
+1610614974546,10324,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227959,358,1,1,https://www.saksoft.com/,9139,0,7332
+1610614984895,10124,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424518,1144,1,1,null,0,84650,339
+1610615007217,2331,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165834,379,1,1,https://www.saksoft.com/application-services/,1463,0,0
+1610615058286,3598,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128738,390,1,1,https://www.saksoft.com/information-management-services/,1655,0,339
+1610615075474,4195,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129946,375,1,1,https://www.saksoft.com/testing-services/,2358,0,0
+1610634749742,15247,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227967,358,1,1,null,0,378,5979
+1610634750115,15247,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227967,358,1,1,https://www.saksoft.com/,9930,0,5979
+1610634765413,74320,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424498,1144,1,1,null,0,87476,643
+1610634795798,16171,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165829,379,1,1,https://www.saksoft.com/application-services/,1924,0,0
+1610634849873,11012,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128758,390,1,1,https://www.saksoft.com/information-management-services/,3505,0,643
+1610634880073,47137,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129911,375,1,1,https://www.saksoft.com/testing-services/,12003,0,0
+1611489870872,5658,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227943,358,1,1,null,0,141,3877
+1611489871016,5658,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227943,358,1,1,https://www.saksoft.com/,5365,0,3877
+1611489876706,9197,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424539,1144,1,1,null,0,78098,161
+1611489893638,2912,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165843,379,1,1,https://www.saksoft.com/application-services/,2059,0,0
+1611489949088,3102,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128775,390,1,1,https://www.saksoft.com/information-management-services/,2425,0,161
+1611489960819,3183,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129921,375,1,1,https://www.saksoft.com/testing-services/,2511,0,0
+1611490530455,7756,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227975,358,1,1,null,0,413,4613
+1611490530872,7756,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227975,358,1,1,https://www.saksoft.com/,7115,0,4613
+1611490538657,8135,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424590,1144,1,1,null,0,82431,164
+1611490541511,1847,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165841,379,1,1,https://www.saksoft.com/application-services/,1676,0,0
+1611490599963,3391,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128793,390,1,1,https://www.saksoft.com/information-management-services/,3158,0,164
+1611490626325,2897,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129956,375,1,1,https://www.saksoft.com/testing-services/,2389,0,0
+1611491518303,7217,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227992,358,1,1,null,0,547,3961
+1611491518848,7217,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227992,358,1,1,https://www.saksoft.com/,6231,0,3961
+1611491526111,7326,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424591,1144,1,1,null,0,107308,190
+1611491557173,3260,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165871,379,1,1,https://www.saksoft.com/application-services/,2529,0,0
+1611491616050,2696,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128757,390,1,1,https://www.saksoft.com/information-management-services/,2411,0,190
+1611491639376,1370,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129963,375,1,1,https://www.saksoft.com/testing-services/,1259,0,0
+1611491803227,5113,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227935,358,1,1,null,0,140,2954
+1611491803377,5113,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227935,358,1,1,https://www.saksoft.com/,4806,0,2954
+1611491808501,4890,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424579,1144,1,1,null,0,61201,196
+1611491813371,1596,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165849,379,1,1,https://www.saksoft.com/application-services/,1442,0,0
+1611491853212,1519,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128790,390,1,1,https://www.saksoft.com/information-management-services/,1415,0,0
+1611491872816,1775,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129940,375,1,1,https://www.saksoft.com/testing-services/,1504,0,196
+1611492235265,8228,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227930,358,1,1,null,0,958,5846
+1611492236216,8228,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227930,358,1,1,https://www.saksoft.com/,7861,0,5846
+1611492244488,13523,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424597,1144,1,1,null,0,61189,149
+1611492255765,3166,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165874,379,1,1,https://www.saksoft.com/application-services/,2487,0,0
+1611492295188,1899,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128755,390,1,1,https://www.saksoft.com/information-management-services/,1801,0,0
+1611492310743,8458,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129968,375,1,1,https://www.saksoft.com/testing-services/,8218,0,149
+1611492571920,8183,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,227960,358,1,1,null,0,321,4901
+1611492572250,8183,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,227960,358,1,1,https://www.saksoft.com/,7837,0,4901
+1611492580443,36423,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,424598,1144,1,1,null,0,57987,155
+1611492601364,14194,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,165878,379,1,1,https://www.saksoft.com/application-services/,13832,0,0
+1611492636770,20144,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,128751,390,1,1,https://www.saksoft.com/information-management-services/,19913,0,155
+1611492672769,2085,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,129969,375,1,1,https://www.saksoft.com/testing-services/,2000,0,0
+1656400778723,2435,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2216,358,1,1,null,0,111,2393
+1656400778833,2435,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2216,358,1,1,https://www.saksoft.com/,2432,0,2393
+1656400781274,158,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6648,1144,1,1,null,0,89207,59
+1656400817204,36,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2216,379,1,1,https://www.saksoft.com/application-services/,36,0,0
+1656400860792,88,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2216,390,1,1,https://www.saksoft.com/information-management-services/,88,0,59
+1656400870592,34,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2216,375,1,1,https://www.saksoft.com/testing-services/,34,0,0
+1656400960971,1197,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,82,1156
+1656400961052,1197,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1195,0,1156
+1656400962255,195,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6704,1144,1,1,null,0,97115,81
+1656400992161,44,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,44,0,0
+1656401045204,113,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2216,390,1,1,https://www.saksoft.com/information-management-services/,113,0,81
+1656401059507,38,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2216,375,1,1,https://www.saksoft.com/testing-services/,38,0,0
+1656401109968,1118,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2216,358,1,1,null,0,74,1076
+1656401110041,1118,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2216,358,1,1,https://www.saksoft.com/,1116,0,1076
+1656401111165,418,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6704,1144,1,1,null,0,62354,198
+1656401121339,35,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2216,379,1,1,https://www.saksoft.com/application-services/,35,0,0
+1656401153362,51,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2216,390,1,1,https://www.saksoft.com/information-management-services/,51,0,0
+1656401173599,332,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,332,0,198
+1656401430009,1333,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2216,358,1,1,null,0,99,1289
+1656401430107,1333,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2216,358,1,1,https://www.saksoft.com/,1330,0,1289
+1656401431447,173,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6648,1144,1,1,null,0,109626,60
+1656401467295,44,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2216,379,1,1,https://www.saksoft.com/application-services/,44,0,0
+1656401519275,89,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2216,390,1,1,https://www.saksoft.com/information-management-services/,89,0,60
+1656401541201,40,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2216,375,1,1,https://www.saksoft.com/testing-services/,40,0,0
+1656402420220,1140,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,78,1099
+1656402420297,1140,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1137,0,1099
+1656402421443,174,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6704,1144,1,1,null,0,75673,61
+1656402446279,39,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,39,0,0
+1656402480787,93,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2216,390,1,1,https://www.saksoft.com/information-management-services/,92,0,61
+1656402497244,42,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2216,375,1,1,https://www.saksoft.com/testing-services/,42,0,0
+1656407763502,1342,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,80,1303
+1656407763581,1342,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1340,0,1303
+1656407764928,229,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,92124,74
+1656407783565,39,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,39,0,0
+1656407839089,120,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,120,0,74
+1656407857208,70,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,70,0,0
+1656408590653,1117,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2216,358,1,1,null,0,73,1078
+1656408590725,1117,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2216,358,1,1,https://www.saksoft.com/,1115,0,1078
+1656408591848,157,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6760,1144,1,1,null,0,101716,55
+1656408627890,41,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2216,379,1,1,https://www.saksoft.com/application-services/,40,0,0
+1656408669914,82,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,81,0,55
+1656408693676,34,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,34,0,0
+1656410056864,2101,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,80,1974
+1656410056943,2101,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,2099,0,1974
+1656410059050,546,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,70391,58
+1656410078092,288,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,288,0,0
+1656410113425,172,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,172,0,0
+1656410129899,86,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,86,0,58
+1656417955245,2148,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,99,2104
+1656417955343,2148,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,2144,0,2104
+1656417957498,175,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,72186,60
+1656417982900,40,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,40,0,0
+1656418018102,89,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,89,0,60
+1656418029809,46,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,46,0,0
+1656481799644,2294,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,98,2253
+1656481799741,2294,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,2291,0,2253
+1656481802040,166,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,83712,59
+1656481833006,39,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,39,0,0
+1656481861563,88,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,87,0,59
+1656481885879,39,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,39,0,0
+1656482355621,1242,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,77,1204
+1656482355696,1242,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1239,0,1204
+1656482356943,19040,services,Non HTTP response code: java.net.SocketTimeoutException,"Number of samples in transaction : 3, number of failing samples : 1",Thread Group 1-1,,false,,7660,769,1,1,null,0,42953,0
+1656482358294,27,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,27,0,0
+1656482378814,41,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,41,0,0
+1656482399963,18972,https://www.saksoft.com/testing-services/,Non HTTP response code: java.net.SocketTimeoutException,Non HTTP response message: Read timed out,Thread Group 1-1,text,false,,2988,0,1,1,https://www.saksoft.com/testing-services/,0,0,0
+1656488757626,1454,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,122,1408
+1656488757747,1454,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1449,0,1408
+1656488759207,170,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,80333,58
+1656488762341,35,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,35,0,0
+1656488818891,89,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,89,0,58
+1656488839617,46,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,46,0,0
+1656489358511,1302,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,79,1263
+1656489358588,1302,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1300,0,1263
+1656489359897,167,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6944,1144,1,1,null,0,78265,61
+1656489389491,38,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,38,0,0
+1656489415375,37,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,37,0,0
+1656489438208,92,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,92,0,61
+1656491673276,1201,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,86,1138
+1656491673360,1201,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1199,0,1138
+1656491674567,139,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,46711,0
+1656491676146,30,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,30,0,0
+1656491710389,43,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,43,0,0
+1656491721349,66,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,66,0,0
+1656491924152,1704,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,81,1564
+1656491924232,1704,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1702,0,1564
+1656491925943,162,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7008,1144,1,1,null,0,72198,52
+1656491947649,45,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,45,0,0
+1656491974690,36,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,35,0,0
+1656491998221,81,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2336,375,1,1,https://www.saksoft.com/testing-services/,81,0,52
+1656492630715,1100,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,75,1059
+1656492630788,1100,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1098,0,1059
+1656492631893,171,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,64737,58
+1656492654467,44,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,44,0,0
+1656492678792,41,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,41,0,0
+1656492696708,86,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,86,0,58
+1656493154162,2046,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,110,2002
+1656493154270,2046,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,2043,0,2002
+1656493156323,163,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,65835,61
+1656493166433,41,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,40,0,0
+1656493207146,32,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,32,0,0
+1656493222229,90,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,90,0,61
+1656493483450,1142,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,78,1102
+1656493483527,1142,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1139,0,1102
+1656493484675,191,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6880,1144,1,1,null,0,101520,65
+1656493515450,48,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,48,0,0
+1656493567313,106,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,106,0,65
+1656493586330,37,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,37,0,0
+1656493654349,1326,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,87,1282
+1656493654434,1326,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1323,0,1282
+1656493655768,176,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6944,1144,1,1,null,0,60925,62
+1656493670274,43,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,43,0,0
+1656493703346,39,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,39,0,0
+1656493716767,94,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,94,0,62
+1656494500052,1236,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,100,1196
+1656494500150,1236,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1234,0,1196
+1656494501392,158,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7008,1144,1,1,null,0,77105,54
+1656494521740,37,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,37,0,0
+1656494568195,83,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,83,0,54
+1656494578600,38,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2336,375,1,1,https://www.saksoft.com/testing-services/,38,0,0
+1656495070017,1719,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,89,1672
+1656495070104,1719,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1717,0,1672
+1656495071830,167,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7008,1144,1,1,null,0,92312,55
+1656495099762,41,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,41,0,0
+1656495149454,84,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,84,0,55
+1656495164263,42,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2336,375,1,1,https://www.saksoft.com/testing-services/,42,0,0
+1656496269031,2697,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,88,2558
+1656496269118,2697,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,2694,0,2558
+1656496271821,164,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7008,1144,1,1,null,0,98926,56
+1656496302588,45,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,45,0,0
+1656496352435,85,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,85,0,56
+1656496370874,34,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2336,375,1,1,https://www.saksoft.com/testing-services/,34,0,0
+1656496743245,1256,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2336,358,1,1,null,0,74,1161
+1656496743318,1256,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2336,358,1,1,https://www.saksoft.com/,1254,0,1161
+1656496744579,604,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,7008,1144,1,1,null,0,73113,220
+1656496772841,308,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2336,379,1,1,https://www.saksoft.com/application-services/,308,0,0
+1656496799579,47,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2336,390,1,1,https://www.saksoft.com/information-management-services/,47,0,0
+1656496818041,249,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2336,375,1,1,https://www.saksoft.com/testing-services/,249,0,220
+1656506113207,1783,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,86,1739
+1656506113292,1783,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1779,0,1739
+1656506115081,171,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,67595,61
+1656506140061,40,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,40,0,0
+1656506164111,40,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,40,0,0
+1656506182755,91,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,91,0,61
+1656509094050,1777,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2272,358,1,1,null,0,115,1732
+1656509094163,1777,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2272,358,1,1,https://www.saksoft.com/,1773,0,1732
+1656509095948,197,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6816,1144,1,1,null,0,75452,63
+1656509104845,57,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2272,379,1,1,https://www.saksoft.com/application-services/,57,0,0
+1656509148034,46,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2272,390,1,1,https://www.saksoft.com/information-management-services/,46,0,0
+1656509171504,94,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2272,375,1,1,https://www.saksoft.com/testing-services/,94,0,63
+1658234465448,2830,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2196,358,1,1,null,0,115,2708
+1658234465562,2830,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2196,358,1,1,https://www.saksoft.com/,2827,0,2708
+1658234468398,923,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6588,1144,1,1,null,0,97399,186
+1658234492065,142,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2196,379,1,1,https://www.saksoft.com/application-services/,142,0,0
+1658234547793,274,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2196,390,1,1,https://www.saksoft.com/information-management-services/,274,0,186
+1658234566211,507,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2196,375,1,1,https://www.saksoft.com/testing-services/,507,0,0
+1707476607356,459,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2204,358,1,1,null,0,72,425
+1707476607427,459,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2204,358,1,1,https://www.saksoft.com/,456,0,425
+1707476607891,236,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6804,1144,1,1,null,0,91334,130
+1707476629315,34,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2204,379,1,1,https://www.saksoft.com/application-services/,34,0,0
+1707476682376,163,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2300,390,1,1,https://www.saksoft.com/information-management-services/,163,0,130
+1707476699422,39,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2300,375,1,1,https://www.saksoft.com/testing-services/,38,0,0
+1707727915652,424,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2276,358,1,1,null,0,69,383
+1707727915720,424,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2276,358,1,1,https://www.saksoft.com/,420,0,383
+1707727916150,231,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6840,1144,1,1,null,0,71509,95
+1707727934497,73,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2276,379,1,1,https://www.saksoft.com/application-services/,73,0,0
+1707727972399,39,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2276,390,1,1,https://www.saksoft.com/information-management-services/,39,0,0
+1707727987772,119,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2288,375,1,1,https://www.saksoft.com/testing-services/,119,0,95
+1707774598567,811,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2288,358,1,1,null,0,95,773
+1707774598661,811,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2288,358,1,1,https://www.saksoft.com/,804,0,773
+1707774599479,205,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6840,1144,1,1,null,0,105463,115
+1707774625262,27,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2288,379,1,1,https://www.saksoft.com/application-services/,27,0,0
+1707774681831,147,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2276,390,1,1,https://www.saksoft.com/information-management-services/,147,0,115
+1707774705116,31,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2276,375,1,1,https://www.saksoft.com/testing-services/,31,0,0
+1707775016660,538,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2276,358,1,1,null,0,74,494
+1707775016733,538,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2276,358,1,1,https://www.saksoft.com/,533,0,494
+1707775017283,179,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6828,1144,1,1,null,0,93613,66
+1707775051519,33,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2276,379,1,1,https://www.saksoft.com/application-services/,33,0,0
+1707775099156,98,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2276,390,1,1,https://www.saksoft.com/information-management-services/,98,0,66
+1707775111028,48,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2276,375,1,1,https://www.saksoft.com/testing-services/,48,0,0
+1707777705217,451,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2276,358,1,1,null,0,73,403
+1707777705289,451,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2276,358,1,1,https://www.saksoft.com/,444,0,403
+1707777705750,200,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6840,1144,1,1,null,0,70856,98
+1707777706608,33,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2276,379,1,1,https://www.saksoft.com/application-services/,33,0,0
+1707777753990,44,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2276,390,1,1,https://www.saksoft.com/information-management-services/,44,0,0
+1707777776682,123,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2288,375,1,1,https://www.saksoft.com/testing-services/,123,0,98
+1707778591278,379,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2288,358,1,1,null,0,86,341
+1707778591363,379,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2288,358,1,1,https://www.saksoft.com/,374,0,341
+1707778591751,133,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6864,1144,1,1,null,0,100149,47
+1707778619449,33,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2288,379,1,1,https://www.saksoft.com/application-services/,32,0,0
+1707778671230,73,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2288,390,1,1,https://www.saksoft.com/information-management-services/,73,0,47
+1707778692007,27,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2288,375,1,1,https://www.saksoft.com/testing-services/,27,0,0
+1707804228708,426,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2128,358,1,1,null,0,69,390
+1707804228776,426,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2128,358,1,1,https://www.saksoft.com/,421,0,390
+1707804229213,337,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6504,1144,1,1,null,0,97313,118
+1707804261774,36,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2128,379,1,1,https://www.saksoft.com/application-services/,35,0,0
+1707804306074,147,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2188,390,1,1,https://www.saksoft.com/information-management-services/,147,0,118
+1707804326709,154,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2188,375,1,1,https://www.saksoft.com/testing-services/,154,0,0
+1707804699403,385,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2128,358,1,1,null,0,73,342
+1707804699475,385,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2128,358,1,1,https://www.saksoft.com/,380,0,342
+1707804699869,95,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6384,1144,1,1,null,0,49569,0
+1707804714744,28,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2128,379,1,1,https://www.saksoft.com/application-services/,28,0,0
+1707804741233,36,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2128,390,1,1,https://www.saksoft.com/information-management-services/,36,0,0
+1707804749502,31,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2128,375,1,1,https://www.saksoft.com/testing-services/,31,0,0
+1707815839712,379,launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,2128,358,1,1,null,0,70,341
+1707815839781,379,https://www.saksoft.com/,200,OK,Thread Group 1-1,text,true,,2128,358,1,1,https://www.saksoft.com/,373,0,341
+1707815840171,374,services,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,6504,1144,1,1,null,0,85097,233
+1707815859755,41,https://www.saksoft.com/application-services/,200,OK,Thread Group 1-1,text,true,,2128,379,1,1,https://www.saksoft.com/application-services/,40,0,0
+1707815906900,289,https://www.saksoft.com/information-management-services/,200,OK,Thread Group 1-1,text,true,,2188,390,1,1,https://www.saksoft.com/information-management-services/,289,0,233
+1707815925598,44,https://www.saksoft.com/testing-services/,200,OK,Thread Group 1-1,text,true,,2188,375,1,1,https://www.saksoft.com/testing-services/,44,0,0

@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" data-provider-thread-count="1" parallel="false" verbose="1" name="Salesforce Test Suite" annotations="JDK">
+    <!--Before Test-->
+
+    <test name="Salesforce Feature Tests">
+        <parameter name="Browser" value="chrome"/>
+        <parameter name="Proxy" value="false"/>
+        <classes>
+            <!--Before Class-->
+            <!-- <class name="bddRunner.StorageSetupTestRunner">-->
+                   <!--<class name="bddRunner.GraphExplorerTestRunner">-->
+               <!--  <class name="bddRunner.UploadTestRunner">-->
+            <class name="bddRunner.ObjectSetupTestRunner">
+
+            <!--<class name="bddRunner.DeleteModuleTestRunner">-->
+
+
+
+             </class>
+         </classes>
+     </test>
+ </suite>
+

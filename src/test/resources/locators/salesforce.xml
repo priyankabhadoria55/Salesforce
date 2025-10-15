@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <LoginButton>//*[@id="Login"]</LoginButton>
+    <AppLauncher>//*[@title='App Launcher']</AppLauncher>
+    <SearchApp>//*[@placeholder='Search apps and items...']</SearchApp>
+    <SearchFields>//*[@placeholder='{paramlink}']</SearchFields>
+    <AppLink>//*[@data-label='{paramlink}']</AppLink>
+    <EntityOperation>//*[normalize-space(text())='{paramlink}']</EntityOperation>
+    <EntityNewModelPopup>//*[text()='New {paramlink}' or text()='{paramlink}']</EntityNewModelPopup>
+    <FormLabel>//label[text()='{paramlink}']|//span[text()='Rainbow Sales']/ancestor::label</FormLabel>
+    <FormFields>//*[@id='{paramlink}']</FormFields>
+    <ComboBoxOption>//*[contains(@data-item-id,'{paramlink1}') and @data-value='{paramlink2}']</ComboBoxOption>
+    <Entity>//*[@title='{paramlink}']</Entity>
+    <Entity_inConsole>//a[string()='{paramlink}']</Entity_inConsole>
+    <EntityOperationButton>//*[@title='{paramlink}']//button</EntityOperationButton>
+    <GridSearch>(//*[@placeholder='Search this list...'] |  //label[text()='Search...']/following-sibling::*/*[@placeholder='Search...'])</GridSearch>
+    <RecordGridLink>//table[@role='grid']/tbody//th//a</RecordGridLink>
+    <EntityTabs>//*[contains(@class,'windowViewMode-{paramlink1}')]//*[text()='{paramlink}']</EntityTabs>
+    <NavItem>//a[@title="{paramlink}"]</NavItem>
+    <XfileProIframe>//iframe[@title="XfilesPro"]</XfileProIframe>
+
+
+    <SideNavLink>//*[@data-tab="{paramlink}"]</SideNavLink>
+    <CloudStorageButton>//*[@title="Cloud Storage"]</CloudStorageButton>
+    <StorageProvideDropdown>//select[@class="slds-select"]</StorageProvideDropdown>
+    <NextButton>//button[text()="Next"]</NextButton>
+    <ClickHereLink>//a[text()="Click here" ]</ClickHereLink>
+    <ClientIdInputField>(//lightning-input//label[text()="Client Id"]/../div/input)[1]</ClientIdInputField>
+    <TenantIdInputField>(//lightning-input//label[text()="Tenant Id"]/../div/input)[1]</TenantIdInputField>
+    <ClientSecret>(//lightning-input//label[text()="Client Secret"]/../div/input)[1]</ClientSecret>
+
+    <StorageTypePageTitle>(//span[normalize-space(text())='Storage Setup'])[2]</StorageTypePageTitle>
+    <StorageTypeProgressStep>//lightning-progress-step[@class='slds-is-active slds-path__item slds-is-current']//span[text()='Storage Type']</StorageTypeProgressStep>
+    <StorageProviderLabel>//span[contains(text(), 'Select the storage provider')]</StorageProviderLabel>
+    <StorageProviderDropdown>//select[@id='560:0' and @class='slds-select']</StorageProviderDropdown>
+    <StorageProviderDropdownOption>//select[@id='560:0']//option[@value='{paramlink}']</StorageProviderDropdownOption>
+    <StorageProviderDefaultOption>//select[@id='560:0']//option[@value='' and text()='--None--']</StorageProviderDefaultOption>
+    <NextButtonDisabled>//button[@disabled='true' and text()='Next']</NextButtonDisabled>
+
+    <StorageProviderDropdownAlt>//select[@class='slds-select' and @required]</StorageProviderDropdownAlt>
+
+    <StorageProviderTable>//table[contains(@class, 'slds-table') and contains(@class, 'xfp-table')]</StorageProviderTable>
+    <StorageProviderTableAlt>//div[contains(@class, 'page-section-card')]//table[contains(@class, 'slds-table')]</StorageProviderTableAlt>
+    <StorageProviderRows>//table[contains(@class, 'xfp-table')]//tbody/tr</StorageProviderRows>
+
+    <StorageConfigurationTitle>//input[@name='title']</StorageConfigurationTitle>
+    <!--    Authentication-->
+    <Auth_Button>//button[text()='Authenticate']</Auth_Button>
+
+
+    <InfoButton>//button[@title='Info']</InfoButton>
+
+
+    <!--    Info Popup Modal-->
+    <InfoButtonFirst>//button[@title='Info']</InfoButtonFirst>
+    <InfoModalContainer>//div[@class='slds-modal__container']</InfoModalContainer>
+    <InfoModalTitle>//div[@class='slds-modal__container']//div[contains(@class, 'slds-text-heading_medium')]</InfoModalTitle>
+    <InfoPopupNameField>//div[@class='slds-modal__container']//input[@name='providrName']</InfoPopupNameField>
+    <InfoPopupSiteNameField>//input[@name='providrName']</InfoPopupSiteNameField>
+    <InfoPopupLibraryField>//div[@class='slds-modal__container']//input[@name='library' or @placeholder='Select the library...']</InfoPopupLibraryField>
+    <InfoModalCloseButton>//div[@class='slds-modal__container']//button[contains(@class, 'slds-button_neutral') and text()='Close']</InfoModalCloseButton>
+
+    <!--    Re-Authenticate Modal-->
+    <Re-AuthenticateButtonFirst>//*[@title="Re-Authenticate"]</Re-AuthenticateButtonFirst>
+    <ReAuthModalContainer>//div[@class='slds-modal__container']</ReAuthModalContainer>
+    <ReAuthModalHeader>//div[@class='slds-modal__container']//header[@class='slds-modal__header']</ReAuthModalHeader>
+    <ReAuthSecretKeyLabel>//div[@class='slds-modal__container']//label[contains(., 'Secret Key')]</ReAuthSecretKeyLabel>
+    <ReAuthSecretKeyField>//div[@class='slds-modal__container']//input[@type='password']</ReAuthSecretKeyField>
+    <ReAuthSecretKeyRequired>//div[@class='slds-modal__container']//abbr[@class='slds-required' and @title='required']</ReAuthSecretKeyRequired>
+    <ReAuthCancelButton>//div[@class='slds-modal__container']//button[contains(@class, 'slds-button') and (text()='Cancel' or text()='Close')]</ReAuthCancelButton>
+    <Re-AuthenticateButtononpopup>//button[normalize-space(text())='Re-Authenticate']</Re-AuthenticateButtononpopup>
+
+
+    <!--    Microsoft Authentication Error Message-->
+    <MicrosoftSigninErrorMessage>//div[@id='exceptionMessageContainer' and contains(@class, 'text-body')]</MicrosoftSigninErrorMessage>
+    <MicrosoftSigninErrorMessageAlt>//*[@data-bind='text: unsafe_exceptionMessage']</MicrosoftSigninErrorMessageAlt>
+
+    <!-- Storage Type Page Locators -->
+    <NextButtonDisabled>//button[@disabled='true' and text()='Next' and @class='slds-button slds-button_brand']</NextButtonDisabled>
+
+    <!--Upload module-->
+    <Details_tab>(//a[@data-label='Details'])[2]</Details_tab>
+    <!-- Storage Type Page Locators -->
+    <NextButtonEnabled>//button[text()='Next' and @class='slds-button slds-button_brand' and not(@disabled)]</NextButtonEnabled>
+    <SharePointAzureOption>//select[@id='560:0']//option[@value='SharePoint' and text()='SharePoint (Azure)']</SharePointAzureOption>
+
+
+    <StorageSetupPageTitle>//p[@class='slds-text-heading_medium header-title' and text()='Storage Setup']</StorageSetupPageTitle>
+    <StorageSetupPageIcon>//i[@class='fa fa-database']</StorageSetupPageIcon>
+    <CloudStorageButtonOnMainPage>//button[@title='Cloud Storage' and @class='slds-button slds-button_neutral']</CloudStorageButtonOnMainPage>
+    <LocalStorageButton>//button[@class='slds-button slds-button_neutral' and text()='Local Storage']</LocalStorageButton>
+    <StorageSetupTable>//table[@class='slds-table slds-table--bordered slds-max-medium-table--stacked xfp-table']</StorageSetupTable>
+
+
+    <!-- Storage Provider Dropdown Locators -->
+    <StorageProviderDropdownlist>//select[@class='slds-select' and @required='']</StorageProviderDropdownlist>
+    <StorageProviderDropdownOptions>//select[@class='slds-select']//option</StorageProviderDropdownOptions>
+    <NoneOption>//select[@class='slds-select']//option[@value='' and text()='--None--']</NoneOption>
+    <AmazonS3Option>//select[@class='slds-select']//option[@value='AmazonS3' and text()='Amazon S3']</AmazonS3Option>
+    <OneDriveOption>//select[@class='slds-select']//option[@value='OneDrive' and text()='OneDrive']</OneDriveOption>
+    <SharePointAzureOptionlist>//select[@class='slds-select']//option[@value='SharePoint' and text()='SharePoint (Azure)']</SharePointAzureOptionlist>
+    <SharePointMicrosoftOption>//select[@class='slds-select']//option[@value='SharePointOnline' and text()='SharePoint (Microsoft)']</SharePointMicrosoftOption>
+
+    <CancelButton>//button[text()="Cancel"]</CancelButton>
+
+    <!-- Client Id and Tenant Id Validation Locators -->
+    <ClientIdValidationMessage>//div[contains(@class, 'slds-form-element__help') and contains(., 'Please enter the Client Id.')]</ClientIdValidationMessage>
+    <TenantIdValidationMessage>//div[contains(@class, 'slds-form-element__help') and contains(., 'Please enter the Tenant Id.')]</TenantIdValidationMessage>
+    <ClientIdAndTenantIdProgressStep>//lightning-progress-step[@class='slds-progress__item slds-is-active']//div[@data-label='Client Id and Tenant Id']</ClientIdAndTenantIdProgressStep>
+    <!--<GenerateClientSecretProgressStep>//lightning-progress-step[@class='slds-progress__item']//div[@data-label='Generate Client Secret']</GenerateClientSecretProgressStep>-->
+    <GenerateClientSecretProgressStep>//lightning-progress-step[@class='slds-progress__item slds-is-active']//div[@data-label='Generate Client Secret']</GenerateClientSecretProgressStep>
+    <GenerateClientSecretCurrentStep>//div[@class='slds-progress__marker' and @data-label='Generate Client Secret' and .//span[contains(text(), 'Current Stage')]]</GenerateClientSecretCurrentStep>
+
+    <!-- Previous/Next Button Navigation Locators -->
+    <PreviousButton>//button[@class='slds-button slds-button_neutral' and text()='Previous']</PreviousButton>
+
+
+    <!-- Client Id and Tenant Id Validation Locators -->
+
+    <TenantIdFieldPopulated>//input[@id='input-66' and @aria-invalid='false']</TenantIdFieldPopulated>
+
+
+    <ClientSecretValidationMessagedrf>//div[contains(@class, 'slds-form-element__help') and contains(., 'Please enter the Client Secret.')]</ClientSecretValidationMessagedrf>
+    <ClientSecretValidationMessage>//div[contains(text(),'Please enter the Client Secret.')]</ClientSecretValidationMessage>
+    <GenerateClientSecretProgressSteptest>//span[normalize-space(text())='Client Secret - Current Stage']</GenerateClientSecretProgressSteptest>
+    <GrantAppPermissionProgressSteptest>//span[normalize-space(text())='Grant App Permissions - Stage Not Started']</GrantAppPermissionProgressSteptest>
+    <GrantAppPermissionCurrentStep>//div[@class='slds-progress__marker' and @data-label='Grant App Permissions' and .//span[contains(text(), 'Current Stage')]]</GrantAppPermissionCurrentStep>
+
+
+    <!-- Progress Step Navigation Locators -->
+    <GrantAppPermissionProgressSteptestb>//div[@class='slds-progress__marker' and @data-label='Grant App Permissions']</GrantAppPermissionProgressSteptestb>
+    <GrantAppPermissionCurrentSteptest>//lightning-progress-step[@class='slds-progress__item slds-is-active']//div[@data-label='Grant App Permissions']</GrantAppPermissionCurrentSteptest>
+
+
+
+
+
+
+
+
+
+
+
+    <!--    //Azure register-->
+
+
+    <NewRegistrationButton>//*[@data-telemetryname="Command-New registration"]</NewRegistrationButton>
+    <NameInput>//*[@aria-label="Name The user-facing display name for this application (this can be changed later).}"]</NameInput>
+    <AzureADMultipleOrgsOption>//*[@value="AzureADMultipleOrgs"]</AzureADMultipleOrgsOption>
+    <SelectPlatformText>//div[text()="Select a platform"]</SelectPlatformText>
+    <RedirectURIInput>//*[@aria-label="Redirect URI (optional)"]</RedirectURIInput>
+    <Selectaplatformdrop>//div[@aria-label='Redirect URI (optional)' and text()='Select a platform']</Selectaplatformdrop>
+    <Webselectfromdropdownlist>//span[normalize-space()='Web']</Webselectfromdropdownlist>
+    <TextOuthfield>//input[@placeholder='e.g. https://example.com/auth']</TextOuthfield>
+    <RegisterButton>//span[text()="Register"]</RegisterButton>
+
+<!--    //client tenantid-->
+
+    <ApplicationClientID>//div[@class="fxc-essentials-value fxs-portal-text" and @aria-describedby="_essentials_2"]</ApplicationClientID>
+    <DirectoryTenantID>//div[@class="fxc-essentials-value fxs-portal-text" and @aria-describedby="_essentials_6"]</DirectoryTenantID>
+
+<!--    //cliend secret id-->
+    <NewClientSecretButton>//*[@data-telemetryname="Command-New client secret"]/..</NewClientSecretButton>
+    <ClientSecretDescriptionInput>//input[@aria-label="Description"]</ClientSecretDescriptionInput>
+    <AddButton>//*[@title="Add"]</AddButton>
+    <ClientSecretValue>(//input[@title])[1]</ClientSecretValue>
+
+<!--    client permission-->
+    <AddPermissionButton>//*[@data-telemetryname="Command-Add a permission"]</AddPermissionButton>
+    <MicrosoftGraphOption>//*[@aria-label="Microsoft Graph"]</MicrosoftGraphOption>
+    <DeligatedPermission>//*[@aria-label="Delegated permissions Your application needs to access the API as the signed-in user."]</DeligatedPermission>
+    <SearchPermissionsInput>//input[@aria-label="Search permissions"]</SearchPermissionsInput>
+   <!-- <SitesDropdown>//*[@aria-label="Sites"]</SitesDropdown>-->
+    <SitesDropdown>//div[@role='button' and @aria-label='Expand or collapse group']</SitesDropdown>
+    <SitesSelectedPermission>//label[normalize-space(.)="Sites.Selected"]/ancestor::div[contains(@class,"fxc-gc-row-content")]//div[contains(@class,"fxc-gc-selectioncheckbox")]</SitesSelectedPermission>
+    <SavePermissionsButton>//*[@data-formelement="pcControl: savePermissionsButton"]</SavePermissionsButton>
+    <GrantAdminConsentButton>//*[@data-telemetryname="Command-Grant admin consent for XFILESPRO LABS PRIVATE LIMITED"]</GrantAdminConsentButton>
+    <YesButton>//*[@title="Yes"]</YesButton>
+
+    <!--    Authentication-->
+    <Auth_Button>//button[text()='Authenticate']</Auth_Button>
+    <AuthenticationSuccessMessage>//*[contains(text(),'Authentication Successful! Please Proceed with the Setup Process.')]</AuthenticationSuccessMessage>
+    <CloseNotificationButton>//button[@title='Close' or contains(@class,'slds-notify__close')]</CloseNotificationButton>
+
+
+
+
+
+
+    <!-- Validation Messages -->
+    <DoneButton>//button[text()='Done']</DoneButton>
+    <TitleValidationMessage>//div[contains(text(),'Please enter the Title')]</TitleValidationMessage>
+    <RootSiteNameValidationMessage>//div[contains(text(),'Please enter the Root Site Name')]</RootSiteNameValidationMessage>
+    <RootSiteIdValidationMessage>//div[contains(text(),'Please enter the Root Site Id')]</RootSiteIdValidationMessage>
+    <RootSiteIdTextfieldsearchbtn>//button[@type='button' and text()='Search']</RootSiteIdTextfieldsearchbtn>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EntityAttributeDetail>//*[contains(@class,'windowViewMode-{paramlink1}')]//*[@field-label='{paramlink}']//*[@slot='outputField']|//*[text()='{paramlink}']//parent::*/parent::*//lightning-formatted-text</EntityAttributeDetail>
+    <EntityStatus>//*[@data-tab-name='{paramlink}']</EntityStatus>
+    <StatusChangeButton>//*[text()='Mark as Current Status']</StatusChangeButton>
+    <EntityConvert>//*[text()='Select Converted Status']</EntityConvert>
+    <ModelTitle>//*[contains(@class,'windowViewMode-normal')]//*[normalize-space(text())='{paramlink}']</ModelTitle>
+    <AttributeExpander>//*[@title='{paramlink}']/parent::a</AttributeExpander>
+    <AttributeTypeSelector>//*[normalize-space(text())='{paramlink3} {paramlink1} {paramlink2}']/parent::*/preceding-sibling::input</AttributeTypeSelector>
+    <DataLabel>//label[contains(.,'{paramlink}')]</DataLabel>
+    <RecordOperation>//*[@class='modal-footer slds-modal__footer']//button[text()='{paramlink}']</RecordOperation>
+    <CustomButton>(//*[contains(@class,'windowViewMode-normal')]//button[normalize-space()='{paramlink}'] | //c-wizard-step[@is-active="true"]//button[normalize-space()='{paramlink}'])</CustomButton>
+     <CustomButton1>//*[contains(@class,'windowViewMode-maximized')]//button[string()='{paramlink}']</CustomButton1>
+     <CustomFieldLebel>//*[text()='{paramlink}']/parent::*</CustomFieldLebel>
+     <CustomFormFields>//*[@aria-labelledby='{paramlink}']</CustomFormFields>
+ <!--<UploadFilelabel>//*[text()='Upload Files']/parent::*</UploadFilelabel>-->
+    <UploadFilefield>//*[text()='Upload Files']/parent::*/preceding-sibling::input</UploadFilefield>
+    <SalesforceSearchButton>//button[.='Search...']</SalesforceSearchButton>
+    <SalesforceResultGrid>(//h2[string()='{paramlink1}']//parent::*//parent::*/parent::*//parent::*[contains(@class,'forceSearchResults')]//parent::*//a[@data-refid='recordId'])[{paramlink2}]</SalesforceResultGrid>
+<saleForceEntityGroups>//*[@slot='accordionSections']//*[.='{paramlink}']//button</saleForceEntityGroups>
+<EditIcone>//*[@title='Edit {paramlink}']</EditIcone>
+    <CustomeDetailsfields>//*[text()='{paramlink}']//parent::*/parent::dt/following-sibling::dd//lightning-formatted-text|//*[text()='{paramlink}']//parent::*/parent::*//lightning-formatted-text</CustomeDetailsfields>
+    <EntityTabsinConsole>//*[contains(@class,'windowViewMode-maximized')]//*[text()='{paramlink}']</EntityTabsinConsole>
+    <CellDataRowSelection>//*[@data-cell-value='{paramlink}']</CellDataRowSelection>
+    <Next>//input[@id='butNext']</Next>
+    <Exit>//input[@id='butExit']</Exit>
+    <Searchresult>//*[@class='searchResult']</Searchresult>
+<TextPlaceholder>//*[text()='{paramlink}']</TextPlaceholder>
+
+
+
+
+
+
+    <!-- Delete Upload files -->
+    <Click_New_btn>//div[@title='{paramlink}']</Click_New_btn>
+
+   <!-- <AccountNameInput>//input[@name='Name']</AccountNameInput>
+    <BillingStreetTextarea>//textarea[@name='street' and @autocomplete='street-address']</BillingStreetTextarea>
+    <ShippingStreetTextarea>//textarea[@name='street' and @autocomplete='street-address']</ShippingStreetTextarea>
+    <ShippingCityInput>(//input[@name='city' and @autocomplete='address-level2'])[2]</ShippingCityInput>
+    <ShippingStateInput>(//input[@name='province' and @autocomplete='address-level1'])[2]</ShippingStateInput>
+    <ShippingZipInput>(//input[@name='postalCode' and @autocomplete='postal-code'])[2]</ShippingZipInput>
+    <ShippingCountryInput>(//input[@name='country' and @autocomplete='country'])[2]</ShippingCountryInput>
+-->
+
+    <AccountNameInput>//input[@name='Name']</AccountNameInput>
+    <AccountPhoneInput>//input[@name='Phone']</AccountPhoneInput>
+    <AccountFaxInput>//input[@name='Fax']</AccountFaxInput>
+    <AccountWebsiteInput>//input[@name='Website']</AccountWebsiteInput>
+    <AccountTypeDropdown>//button[@aria-label='Type']</AccountTypeDropdown>
+    <AccountTypeOption>//span[@title='{paramlink}']</AccountTypeOption>
+    <AccountEmployeesInput>//input[@name='NumberOfEmployees']</AccountEmployeesInput>
+    <AccountIndustryDropdown>//button[@aria-label='Industry']</AccountIndustryDropdown>
+    <AccountIndustryOption>//span[@title='{paramlink}']</AccountIndustryOption>
+    <AccountAnnualRevenueInput>//input[@name='AnnualRevenue']</AccountAnnualRevenueInput>
+    <AccountDescriptionTextarea>//textarea[@maxlength='32000']</AccountDescriptionTextarea>
+    <AccountParentAccountInput>//input[@placeholder='Search Accounts...']</AccountParentAccountInput>
+
+    <!-- Billing Address Locators -->
+    <BillingStreetTextarea>//textarea[@name='street' and @autocomplete='street-address']</BillingStreetTextarea>
+    <BillingCityInput>//input[@name='city' and @autocomplete='address-level2']</BillingCityInput>
+    <BillingStateInput>//input[@name='province' and @autocomplete='address-level1']</BillingStateInput>
+    <BillingZipInput>//input[@name='postalCode' and @autocomplete='postal-code']</BillingZipInput>
+    <BillingCountryInput>//input[@name='country' and @autocomplete='country']</BillingCountryInput>
+
+    <!-- Shipping Address Locators -->
+    <ShippingStreetTextarea>(//textarea[@name='street' and @autocomplete='street-address'])[2]</ShippingStreetTextarea>
+    <ShippingCityInput>(//input[@name='city' and @autocomplete='address-level2'])[2]</ShippingCityInput>
+    <ShippingStateInput>(//input[@name='province' and @autocomplete='address-level1'])[2]</ShippingStateInput>
+    <ShippingZipInput>(//input[@name='postalCode' and @autocomplete='postal-code'])[2]</ShippingZipInput>
+    <ShippingCountryInput>(//input[@name='country' and @autocomplete='country'])[2]</ShippingCountryInput>
+
+    <!-- Save Button -->
+    <SaveButton>//button[text()='Save']</SaveButton>
+    <SaveAndNewButton>//button[text()='Save&amp;New']</SaveAndNewButton>
+
+    <Save_Record_Button>//button[text()='{paramlink}']</Save_Record_Button>
+
+    (//span[@part='indicator' and contains(@class,'slds-checkbox_faux')])[1]
+    <select_Firstcheckbox>(//span[@part='indicator' and contains(@class,'slds-checkbox_faux')])[1]</select_Firstcheckbox>
+    <DeleteButton>//button[@title='Delete' and contains(@class,'slds-button_icon-border')]</DeleteButton>
+
+
+</locators>
+
+
+
+
+
+

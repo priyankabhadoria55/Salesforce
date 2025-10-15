@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+
+    <!-- Suppress specific JARs by file name -->
+    <suppress>
+        <notes><![CDATA[
+   file name: agent-java-cucumber6-5.3.2.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.epam\.reportportal/agent-java-cucumber6@.*$</packageUrl>
+        <cpe>cpe:/a:reportportal:reportportal</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: ant-1.9.7.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.ant/ant@.*$</packageUrl>
+        <cpe>cpe:/a:apache:ant</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcpg-jdk15-1.46.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcpg-jdk15@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy_castle_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcpkix-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcpkix-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy_castle_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: client-java-5.2.13.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.epam\.reportportal/client-java@.*$</packageUrl>
+        <cpe>cpe:/a:reportportal:reportportal</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: ant-1.9.7.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.ant/ant@.*$</packageUrl>
+        <vulnerabilityName>CVE-2020-1945</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: ant-1.9.7.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.ant/ant@.*$</packageUrl>
+        <vulnerabilityName>CVE-2021-36373</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: ant-1.9.7.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.ant/ant@.*$</packageUrl>
+        <vulnerabilityName>CVE-2021-36374</vulnerabilityName>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: ant-launcher-1.9.7.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.apache\.ant/ant-launcher@.*$</packageUrl>
+        <cpe>cpe:/a:apache:ant</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15-1.46.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy-castle-crypto-package</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15-1.46.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy_castle_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15-1.46.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:legion-of-the-bouncy-castle-java-crytography-api</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15-1.46.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:the_bouncy_castle_crypto_package_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy-castle-crypto-package</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy_castle_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:legion-of-the-bouncy-castle-java-crytography-api</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:the_bouncy_castle_crypto_package_for_java</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-configuration-1.10.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons-configuration/commons-configuration@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons_configuration</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-fileupload-1.4.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons-fileupload/commons-fileupload@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons_fileupload</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-httpclient-3.1.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons-httpclient/commons-httpclient@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons-httpclient</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-httpclient-3.1.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons-httpclient/commons-httpclient@.*$</packageUrl>
+        <cpe>cpe:/a:apache:httpclient</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-model-5.0.0.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.epam\.reportportal/commons-model@.*$</packageUrl>
+        <cpe>cpe:/a:reportportal:reportportal</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: commons-net-3.6.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/commons-net/commons-net@.*$</packageUrl>
+        <cpe>cpe:/a:apache:commons_net</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: cucumber-reporting-5.7.8.jar: bootstrap.min.js
+   ]]></notes>
+        <packageUrl regex="true">^pkg:javascript/bootstrap@.*$</packageUrl>
+        <cve>CVE-2024-6484</cve>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: dom4j-1.6.1.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/dom4j/dom4j@.*$</packageUrl>
+        <cpe>cpe:/a:dom4j_project:dom4j</cpe>
+    </suppress>
+    <suppress>
+        <notes><![CDATA[
+   file name: bcprov-jdk15on-1.62.jar
+   ]]></notes>
+        <packageUrl regex="true">^pkg:maven/org\.bouncycastle/bcprov-jdk15on@.*$</packageUrl>
+        <cpe>cpe:/a:bouncycastle:bouncy_castle_crypto_package</cpe>
+    </suppress>
+
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*ant-1.9.7\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*bcpg-jdk15-1.46\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*bcpkix-jdk15on-1.62\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*bcprov-jdk15-1.46\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*bcprov-jdk15on-1.62\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*bcprov-jdk18on-1.76\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*client-java-5.2.13\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-beanutils-1.9.4\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-configuration-1.10\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-fileupload-1.4\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-httpclient-3.1\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-model-5.0.0\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*commons-net-3.6\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*dom4j-1.6.1\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*extentreports-2.41.2\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*extentreports-5.1.1\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*groovy-2.4.15\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*groovy-xml-2.4.15\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*gson-2.6.2\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*handlebars-4.0.7\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*icu4j-59.1\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*itext-2.1.7\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*itextpdf-5.5.13.3\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*jackson-databind-2.10.2\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*log4j-1.2.17\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*openxml4j-1.0-beta\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*velocity-engine-core-2.3\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*webdrivermanager-5.6.3\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*wiremock-2.26.3\.jar</filePath>-->
+<!--    </suppress>-->
+<!--    <suppress>-->
+<!--        <filePath regex="true">.*zap-2.14.0\.jar</filePath>-->
+<!--    </suppress>-->
+
+    <!-- Repeat the <suppress> block for remaining JARs as needed -->
+</suppressions>

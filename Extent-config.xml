@@ -1,0 +1,70 @@
+<extentreports>
+    <configuration>
+        <!-- Report Theme: standard or dark -->
+        <theme>standard</theme>
+
+        <!-- Enable Timeline view -->
+        <enableTimeline>true</enableTimeline>
+
+        <!-- Document encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- Protocol for script and stylesheets -->
+        <protocol>https</protocol>
+
+        <!-- Title of the document -->
+        <documentTitle>UNITE - XfilesPro Automation Report</documentTitle>
+
+        <!-- Report name - displayed at top-nav -->
+        <reportName>XfilesPro Automation Test Report</reportName>
+
+        <!-- Location of company logo -->
+        <!-- <logo>lib/360logica.png</logo> -->
+
+        <!-- Global date format -->
+        <dateFormat>MMM dd, yyyy</dateFormat>
+
+        <!-- Global time format -->
+        <timeFormat>HH:mm:ss</timeFormat>
+
+        <!-- Custom CSS -->
+        <css>
+            <![CDATA[
+        .pre {
+          overflow: auto;
+          white-space: pre-wrap;
+        }
+
+        td {
+          border-left: solid 1px #d9d9d9;
+        }
+
+        .extent {
+          font-family: 'Source Sans Pro', Arial, sans-serif;
+        }
+
+        .test-content {
+          padding: 10px;
+        }
+
+        .step-details {
+          margin-left: 20px;
+          padding: 5px;
+        }
+      ]]>
+        </css>
+
+        <!-- Custom JavaScript -->
+        <js>
+            <![CDATA[
+        $(document).ready(function() {
+          // Customize logo if needed
+          // $('.brand-logo img').attr('src', 'lib/360logica.png');
+
+          // Add custom behavior
+          console.log('Extent Report Loaded');
+        });
+      ]]>
+        </js>
+    </configuration>
+</extentreports>

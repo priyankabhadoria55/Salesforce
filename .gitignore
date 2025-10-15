@@ -1,0 +1,8 @@
+/target/
+/test-output/
+/test-results/
+/ExtentReports/
+/.idea
+.project
+
+.qodo

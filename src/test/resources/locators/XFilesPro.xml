@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <LoginUserName>//input[contains(@class,'username') and @type='email']</LoginUserName>
+    <LoginPassword>//input[contains(@class,'password') and @type='password']</LoginPassword>
+    <LoginButton_ObjectSetup>//*[@id="Login"]</LoginButton_ObjectSetup>
+    <AppLauncher_ObjectSetup>//button[contains(@class,'appLauncher') or @title='App Launcher' or .//span[normalize-space()='App Launcher']]</AppLauncher_ObjectSetup>
+    <SearchApp_ObjectSetup>//input[@type='search' and @placeholder='Search apps and items...']</SearchApp_ObjectSetup>
+    <NavItem>//a[@title="{paramlink}"]</NavItem>
+    <!--
+    <SearchFields_ObjectSetup>//*[@placeholder='{paramlink}']</SearchFields_ObjectSetup>
+-->
+    <AppLink_ObjectSetup>//a[@data-label='XfilesPro' and @id="07pfo0000004GBQAA2"]</AppLink_ObjectSetup>
+    <!--<EntityOperation>//*[normalize-space(text())='{paramlink}']</EntityOperation>
+    <EntityNewModelPopup>//*[text()='New {paramlink}' or text()='{paramlink}']</EntityNewModelPopup>-->
+<!--    <FormLabel_ObjectSetup>//label[text()='{paramlink}']|//span[text()='Rainbow Sales']/ancestor::label</FormLabel_ObjectSetup>
+    <FormFields_ObjectSetup>//*[@id='{paramlink}']</FormFields_ObjectSetup>-->
+   <!-- <Entity>//*[@title='{paramlink}']</Entity>
+    <Entity_inConsole>//a[string()='{paramlink}']</Entity_inConsole>
+    <EntityOperationButton>//*[@title='{paramlink}']//button</EntityOperationButton>
+    <GridSearch>(//*[@placeholder='Search this list...'] |  //label[text()='Search...']/following-sibling::*/*[@placeholder='Search...'])</GridSearch>
+    <RecordGridLink>//table[@role='grid']/tbody//th//a</RecordGridLink>
+    <EntityTabs>//*[contains(@class,'windowViewMode-{paramlink1}')]//*[text()='{paramlink}']</EntityTabs>&ndash;&gt;-->
+
+<!-- XFilesPro- Object Setup -->
+    <NavItem_ObjectSetup>//a[@title="{paramlink}"]</NavItem_ObjectSetup>
+    <XfileProIframe_ObjectSetup>//iframe[@title="XfilesPro"]</XfileProIframe_ObjectSetup>
+
+    <ObjectSetup_SideNavLink>//*[@data-tab="{paramlink}"]</ObjectSetup_SideNavLink>
+
+    <ObjectSetup_NewButtonClick>//button[@title='New' and contains(@class,'slds-button')]</ObjectSetup_NewButtonClick>
+    <ObjectSetup_NextButton>//button[contains(@class, 'slds-button_brand') and normalize-space(text())='Next']</ObjectSetup_NextButton>
+    <ObjectSetup_SelectObjectItem>//select[contains(@class,'slds-select') and @name='selectItem']</ObjectSetup_SelectObjectItem>
+    <ObjectSetup_CancelButtonClick>//button[normalize-space(text())='Cancel']</ObjectSetup_CancelButtonClick>
+    <ObjectSetup_NextButtonClickAfterObjectSelection>//button[contains(@class, 'slds-button slds-button_brand') and normalize-space(text())='Next']</ObjectSetup_NextButtonClickAfterObjectSelection>
+    <ObjectSetup_SelectAProvider>//div[label[normalize-space()='*Select a provider']]//select[@name='selectItem']</ObjectSetup_SelectAProvider>
+
+    <!-- XFilesPro- Object Setup folder Structure -->
+    <ObjectSetup_CommitButtonClick>//button[contains(@class,'slds-button') and (@title='Commit' or normalize-space(text())='Commit')]</ObjectSetup_CommitButtonClick>
+    <ObjectSetup_EditButtonClick>//button[contains(@class,'slds-button') and (@title='Edit' or normalize-space(text())='Edit')]</ObjectSetup_EditButtonClick>
+    <ObjectSetup_CancelButtonPopupClick>(//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')]//button[normalize-space()='Proceed']/preceding-sibling::button[contains(@class,'slds-button_neutral')])[1]</ObjectSetup_CancelButtonPopupClick>
+    <ObjectSetup_ProceedButtonClick>//button[contains(@class,'slds-button') and (@title='Proceed' or normalize-space(text())='Proceed')]</ObjectSetup_ProceedButtonClick>
+    <ObjectSetup_SaveFromXFPFolderStructurePageURL>(//input[contains(@class,'btn') and @name='save'])[1]</ObjectSetup_SaveFromXFPFolderStructurePageURL>
+    <ObjectSetup_CancelButtonFromCFPFolderStructureClick>(//input[contains(@class,'btn') and @name='cancel'])[1]</ObjectSetup_CancelButtonFromCFPFolderStructureClick>
+    <ObjectSetup_PreviewButtonClick>//button[contains(@class,'slds-button') and (normalize-space(text())='Preview' or @title='Preview')]</ObjectSetup_PreviewButtonClick>
+    <ObjectSetup_PreviewFolStrucPopupCloseButtonClick>//div[contains(@class,'slds-modal__footer')]//button[normalize-space(text())='Close']</ObjectSetup_PreviewFolStrucPopupCloseButtonClick>
+
+    <!-- XFilesPro- Object Setup template-->
+
+    <ObjectSetup_AddTemplateButtonCheck>//button[contains(@class,'slds-button') and (normalize-space(text())='Add Template' or @title='Add a new template')]</ObjectSetup_AddTemplateButtonCheck>
+    <ObjectSetup_CancelTemplatePopup>//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')]//button[normalize-space()='Cancel']</ObjectSetup_CancelTemplatePopup>
+    <ObjectSetup_EnterTemplateName>//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')][.//h2[normalize-space()='Add Template']]//label[normalize-space(translate(., ' * ', ''))='Name']/following::input[1]</ObjectSetup_EnterTemplateName>
+    <ObjectSetup_ClickOnOkayFromAddTemplatePopup>//span[contains(@class,'XFILESXFP_TemplateStructure')]//button[contains(@class,'slds-button_brand') and normalize-space()='Okay']</ObjectSetup_ClickOnOkayFromAddTemplatePopup>
+    <ObjectSetup_AssertionMessageFromTemplateStructureTab>//*[contains(text(),'Hold on! You will need to create at least one folder')]</ObjectSetup_AssertionMessageFromTemplateStructureTab>
+    <ObjectSetup_DoneButtonClick>//button[@class='slds-button slds-button_brand' and normalize-space()='Done' or contains(@class,'Done')]</ObjectSetup_DoneButtonClick>
+    <ObjectSetup_TemplateEditButtonClick>//div[contains(@class,'slds-grid') and contains(@class,'slds-col')]//button[@title='Edit template name']</ObjectSetup_TemplateEditButtonClick>
+    <ObjectSetup_RenameOrEditFromPopup>//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')]//input[@name='name']</ObjectSetup_RenameOrEditFromPopup>
+    <ObjectSetup_UpdatedTemplateValidationCheck>(//span[contains(@class,'slds-accordion__summary-content')])[1]</ObjectSetup_UpdatedTemplateValidationCheck>
+    <ObjectSetup_DeleteTemplateButtonClick>(//button[@title='Delete template'])[last()]</ObjectSetup_DeleteTemplateButtonClick>
+    <ObjectSetup_DeleteConfirmationFromPopup>//section[contains(@class,'slds-modal')]//button[normalize-space()='Delete']</ObjectSetup_DeleteConfirmationFromPopup>
+
+    <!-- XFilesPro- Object Setup template structure Add Folder-->
+
+    <ObjectSetup_AddFolderTemplateButtonClick>//div[contains(@class,'slds-grid')]//button[@title='Add folder into template']</ObjectSetup_AddFolderTemplateButtonClick>
+    <ObjectSetup_AddFolderTemplateInputField>//section[contains(@class,'slds-modal') and contains(@class,'slds-fade-in-open')]//input[@name='name' and @type='text']</ObjectSetup_AddFolderTemplateInputField>
+    <ObjectSetup_AddedFolderValidation>(//li[contains(@class,'XFILESXFP_TemplateStructureRow')]//span[contains(@class,'slds-tree__item-label')])[last()]</ObjectSetup_AddedFolderValidation>
+
+    <!-- XFilesPro- Object Setup template structure- Edit Folder-->
+    <ObjectSetup_EditFolderButtonClick>(//button[@title='Edit folder name'])[last()]</ObjectSetup_EditFolderButtonClick>
+    <ObjectSetup_LastEditedFolderNameValidation>(//li[contains(@class,'XFILESXFP_TemplateStructureRow')]//span[contains(@class,'slds-tree__item-label')])[last()]</ObjectSetup_LastEditedFolderNameValidation>
+
+    <!-- XFilesPro- Object Setup template structure- Delete Folder-->
+
+    <ObjectSetup_DeleteFolderButtonClick>(//li[contains(@class,'XFILESXFP_TemplateStructureRow')]//button[@title='Delete folder'])[last()]</ObjectSetup_DeleteFolderButtonClick>
+
+    <!-- XFilesPro- Object Setup template structure Control Access Folder-->
+    <ObjectSetup_ControlAccessButtonClick>(//li[contains(@class,'XFILESXFP_TemplateStructureRow')]//button[@title='Control Access'])[last()]</ObjectSetup_ControlAccessButtonClick>
+    <ObjectSetup_ControlAccessAnyoneDefaultCheck>(//div[contains(@class,'slds-combobox')]//span[@class='slds-truncate' and normalize-space()='Anyone'])[1]</ObjectSetup_ControlAccessAnyoneDefaultCheck>
+    <ObjectSetup_ControlAccessDropDownSelection>//div[@role='combobox' and contains(@class,'slds-combobox__input')]</ObjectSetup_ControlAccessDropDownSelection>
+    <ObjectSetup_ControlAccessOkayPopupClick>//section[contains(@class,'slds-modal')]//button[normalize-space()='Okay']</ObjectSetup_ControlAccessOkayPopupClick>
+    <!-- XFilesPro- Object Setup template structure Control Access search field for Users -->
+    <ObjectSetup_SearchUserFieldFromControlAccessFolder>//section[contains(@class,'slds-modal')]//input[@type='search' and contains(@class,'slds-input')]</ObjectSetup_SearchUserFieldFromControlAccessFolder>
+    <ObjectSetup_SelectUsersOption>//span[@class='slds-truncate' and @title='User']</ObjectSetup_SelectUsersOption>
+
+    <!-- XFilesPro- Object Setup template structure Control Access search field option for profile -->
+
+    <ObjectSetup_SelectProfileOption>//span[@class='slds-truncate' and @title='Profile']</ObjectSetup_SelectProfileOption>
+    <ObjectSetup_ControlAccess_Profile_SelectSystemAdmin>//div[normalize-space()='System Administrator' and @class='slds-listbox__option slds-listbox__option_entity']</ObjectSetup_ControlAccess_Profile_SelectSystemAdmin>
+    <ObjectSetup_CheckSysAdminAdd>//p[@title="System Administrator" and @class='slds-truncate']</ObjectSetup_CheckSysAdminAdd>
+
+    <!-- XFilesPro- Object Setup template structure add subfolder -->
+
+    <ObjectSetup_AddButtonClick_SubFolder>(//li[contains(@class,'XFILESXFP_TemplateStructureRow')] //button[contains(@title,'Add a new folder')])[last()]</ObjectSetup_AddButtonClick_SubFolder>
+    <ObjectSetup_EnterSubFolderName>//section[contains(@class,'slds-modal')]//input[@class='slds-input' and @name='name']</ObjectSetup_EnterSubFolderName>
+
+    <!-- XFilesPro- Object Setup template structure completed -->
+    <ObjectSetup_TemplateStructureCompleted>//span[contains(@class,'slds-path__title')][normalize-space()='Template Structure']</ObjectSetup_TemplateStructureCompleted>
+
+
+    <!-- XFilesPro- Object Setup Tags tab-->
+
+    <ObjectSetup_AddTagsButton>//button[@title='Add Tag' and normalize-space()='Add Tag']</ObjectSetup_AddTagsButton>
+
+    <!-- XFilesPro- Object Setup Tags fields generic -->
+    <ObjectSetup_TagNameField_Generic>//table[contains(@class,'slds-table')]//input[@name='tagName']</ObjectSetup_TagNameField_Generic>
+    <ObjectSetup_TagTypeDropdown_Generic>//select[@name='tagType']</ObjectSetup_TagTypeDropdown_Generic>
+    <ObjectSetup_TagDeleteButton_Generic>//table[contains(@class,'slds-table')]//button[@title='Delete']</ObjectSetup_TagDeleteButton_Generic>
+    <ObjectSetup_ToastAppearCheck>((//*[contains(@class,'toast')] | //*[contains(@class,'notify')]))[last()]</ObjectSetup_ToastAppearCheck>
+    <ObjectSetup_TagsObjectField_Generic>//table[contains(@class,'slds-table')]//select[@name='objectField']</ObjectSetup_TagsObjectField_Generic>
+
+    <!-- XFilesPro- Object Setup Tags fields for first fields -->
+    <ObjectSetup_TagTypeDropDown_ForFirstRow>//div[//span[normalize-space()='Tags']]//table//tr[1]//select[@name='tagType']</ObjectSetup_TagTypeDropDown_ForFirstRow>
+    <ObjectSetup_TagsObjectField_ForFirstRow>(//table[contains(@class,'slds-table')]//select[@name='objectField'])[1]</ObjectSetup_TagsObjectField_ForFirstRow>
+    <ObjectSetup_TagNameFieldForFirstRow>//table[contains(@class,'slds-table')]//tr[1]//input[@name='tagName']</ObjectSetup_TagNameFieldForFirstRow>
+    <ObjectSetup_TagTypeField_SelectAuto_ForFirstRow>//select[@name='tagType']/option[normalize-space()='Auto']</ObjectSetup_TagTypeField_SelectAuto_ForFirstRow>
+<!-- Latest tag field selection  -->
+    <ObjectSetup_TagNameLatestOrLastField>(//input[@name='tagName'])[last()]</ObjectSetup_TagNameLatestOrLastField>
+    <ObjectSetup_TagTypeForLastField>(//select[@name='tagType'])[last()]</ObjectSetup_TagTypeForLastField>
+    <ObjectSetup_ObjectFieldForLastField>(//select[@name='objectField'])[last()]</ObjectSetup_ObjectFieldForLastField>
+    <ObjectSetup_DataTypeForLastField>(//select[@name='dataType'])[last()]</ObjectSetup_DataTypeForLastField>
+    <ObjectSetup_DeleteButtonClickLastOrLatestTagDel>(//table[contains(@class,'slds-table')]//button[@title='Delete'])[last()]</ObjectSetup_DeleteButtonClickLastOrLatestTagDel>
+    <ObjectSetup_SameTagNameToasterErrorMessage>//div[contains(@class,'slds-notify__content')]//h2[contains(@class,'slds-text-body_regular')]</ObjectSetup_SameTagNameToasterErrorMessage>
+    <ObjectSetup_SelectOptionAsText>(//select[@name='dataType']//option[@value='Text'])[last()]</ObjectSetup_SelectOptionAsText>
+
+    <!-- Latest tag field selection for Mapping fields(optional) -->
+    <ObjectSetup_MappingFieldsOptional>(//input[@role='combobox' and contains(@placeholder, 'Select the SharePoint Columns')])[last()]</ObjectSetup_MappingFieldsOptional>
+    <ObjectSetup_MappingFieldsOptionalSelectAppCreatedByOption>//div[@role='option']//span[contains(@class,'slds-listbox__option-text') and normalize-space(text())='App Created By']</ObjectSetup_MappingFieldsOptionalSelectAppCreatedByOption>
+
+
+
+
+    <!-- Template Folder Module -->
+
+    <!-- Click on accounts/add account -->
+    <TempFol_AccountsItemClick>//one-app-launcher-menu-item//a[@role='option' and normalize-space(@data-label)='Accounts']</TempFol_AccountsItemClick>
+    <TempFol_ClickOnNewRecordAccount>//li[contains(@data-target-selection-name,'Account.New')]//a[@title='New']</TempFol_ClickOnNewRecordAccount>
+    <TempFol_EnterAccountNameField>//input[@name='Name' and @type='text']</TempFol_EnterAccountNameField>
+    <TempFol_SaveRecordClick>//button[@name='SaveEdit' and normalize-space()='Save']</TempFol_SaveRecordClick>
+    <TempFol_ClickLatestCreatedAccount>(//table[contains(@class,'slds-table')]//tbody/tr[1]//a[contains(@href,'/lightning/r/') and contains(@class,'slds-truncate')])[1]</TempFol_ClickLatestCreatedAccount>
+    <TempFol_ClickOnSecondDetailsTab>(//a[@role='tab' and @data-label='Details' and contains(@class,'slds-tabs_default__link')])[2]</TempFol_ClickOnSecondDetailsTab>
+
+    <TempFol_DropDownOptionFromBiSync>(//button[contains(@class,'slds-dropdown-trigger slds-dropdown-trigger_click slds-m-left_xx-small') or contains(@class,'slds-button slds-button_icon slds-button_icon-more') or contains(@class,'slds-button__icon') and @title='More Actions'])[3]</TempFol_DropDownOptionFromBiSync>
+    <TempFol_DropDownTemplateOptionClick>//a[@role='menuitem'  or contains(@class,'slds-truncate') and normalize-space(text())='Template']</TempFol_DropDownTemplateOptionClick>
+
+    <TempFol_SelectATemplateDropDown>//div[contains(@class,'slds-modal__container')]//select[contains(@class,'slds-select') and contains(@name,'Select_a_Template')]</TempFol_SelectATemplateDropDown>
+    <TempFol_SelectSpecificTemplateOption>//div[contains(@class,'slds-modal__container')]//select[contains(@class,'slds-select') and contains(@name,'Select_a_Template')]</TempFol_SelectSpecificTemplateOption>
+    <TempFol_ClickOnSubmitFromTemplateSelectionPopup>//div[contains(@class,'slds-modal__container')]//button[normalize-space(text())='Submit']</TempFol_ClickOnSubmitFromTemplateSelectionPopup>
+    <TempFol_ClickRefreshButtonFromBiSync>//div[contains(@class,'slds-grid') and contains(@class,'slds-grid_vertical-align-center') and contains(@class,'slds-wrap')]
+        //button[@title='Refresh' and contains(@class,'slds-button_icon-border') and not(ancestor::div[contains(@style,'display:none')])]</TempFol_ClickRefreshButtonFromBiSync>
+    <TempFol_SkipFromManageColumnPopUp_ObjectSetup>//div[contains(@class,'slds-modal__container')]//footer[contains(@class,'slds-modal__footer')]//button[normalize-space(text())='Skip']</TempFol_SkipFromManageColumnPopUp_ObjectSetup>
+
+    <!-- Click on accounts/add Lead-->
+
+    <TempFol_LeadItemClickFromAppLauncher>//one-app-launcher-menu-item//a[@role='option' and normalize-space(@data-label)='Leads']</TempFol_LeadItemClickFromAppLauncher>
+    <TempFol_NewClickForLeadCreation>//button[@name='New' and normalize-space()='New']</TempFol_NewClickForLeadCreation>
+    <TempFol_SelectSalutationDropdownFromLeadWindow>//button[contains(@class,'slds-combobox__input') and @name='salutation']</TempFol_SelectSalutationDropdownFromLeadWindow>
+    <TempFol_SelectSalutationOptionFromLeadWindow>.//span[@title='{{SALUTATION}}']</TempFol_SelectSalutationOptionFromLeadWindow>
+    <TempFol_FirstNameFieldFromLeadPopup>//input[@name='firstName' and @placeholder='First Name']</TempFol_FirstNameFieldFromLeadPopup>
+    <TempFol_LastNameFieldFromLeadPopup>//input[@name='lastName' and @placeholder='Last Name']</TempFol_LastNameFieldFromLeadPopup>
+    <TempFol_CompanyFieldFromLeadPopup>//input[@name='Company' and @class='slds-input']</TempFol_CompanyFieldFromLeadPopup>
+    <TempFol_SaveButtonFromLeadPopup>//button[@name='SaveEdit' and normalize-space(text())='Save']</TempFol_SaveButtonFromLeadPopup>
+    <TempFol_ClickOnRecentCreatedLeadFromList>(//table[contains(@class,'slds-table')]//tbody/tr[1]//a[contains(@href,'/lightning/r/Lead/') and contains(@class,'slds-truncate')])[1]</TempFol_ClickOnRecentCreatedLeadFromList>
+
+    <!-- Click on Settings and edit page and drag/drop xfilesprofile-->
+    <TempFol_SetupGearUp_SettingIcon>(//a[contains(@class,'slds-button_icon-container') and contains(@class,'global-actions__item-action') and contains(@href,'javascript:void')])[2]</TempFol_SetupGearUp_SettingIcon>
+
+</locators>
+

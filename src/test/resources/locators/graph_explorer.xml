@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locators>
+    <!-- Microsoft Graph Explorer Locators -->
+    <locator name="SignInButton">//button[contains(text(), 'Sign in') or contains(@aria-label, 'Sign in')]</locator>
+    <locator name="MethodDropdown">//select[@id='http-verb']</locator>
+    <locator name="EndpointInput">//input[@id='request-url']</locator>
+    <locator name="RequestBodySection">//div[contains(@class, 'request-body') or contains(@id, 'request-body')]</locator>
+    <locator name="RequestBodyInput">//textarea[contains(@id, 'request-body') or contains(@class, 'request-body')] | //div[@contenteditable='true']</locator>
+    <locator name="RunQueryButton">//button[contains(text(), 'Run Query') or contains(@aria-label, 'Run Query')]</locator>
+    <locator name="ResponseSection">//div[contains(@class, 'response') or contains(@id, 'response')]</locator>
+    <locator name="ResponseContent">//div[contains(@class, 'response')]//pre[contains(@class, 'json') or contains(@class, 'response-body')]</locator>
+    <locator name="SuccessIndicator">//div[contains(@class, 'response')]//span[contains(text(), '200') or contains(text(), '201') or contains(text(), 'Success')]</locator>
+</locators>
